@@ -1,0 +1,30 @@
+GUÍA DE PUBLICACIÓN — Landing de Seguridad Electrónica La Pampa
+==================================================
+
+CONTENIDO DEL ZIP
+- index.html, style.css, script.js: la web (no hace falta editarlos).
+- imagenes/: logo, portada y fotos de trabajos (se muestran en la galería).
+
+PASO 1 — GitHub (un repositorio por cliente)
+1. Entrá a la cuenta de GitHub del cliente > botón "New" (Nuevo repositorio).
+2. Nombre sugerido: web-seguridad-electronica-la-pampa. Dejalo Público o Privado (ambos sirven).
+3. "uploading an existing file" > arrastrá TODOS los archivos y la carpeta imagenes (descomprimidos) > "Commit changes".
+
+PASO 2 — Cloudflare Pages (cuenta del cliente)
+1. Cloudflare > Workers & Pages > Create > pestaña Pages > "Connect to Git".
+2. Elegí el repositorio > "Begin setup".
+3. Build command: vacío. Build output directory: / (raíz). Framework: None.
+4. "Save and Deploy". En un minuto aparece una dirección .pages.dev: abrila y revisá.
+
+PASO 3 — Dominio (si el cliente tiene)
+Pages > el proyecto > Custom domains > Set up a domain y seguí los pasos.
+
+ANTES DE ENTREGAR
+[ ] Abrir la web en celular y en computadora.
+[ ] Probar el botón de WhatsApp (5492954330068).
+[ ] Tocar "Escribir por mail": debe abrirse la app de mail con la dirección cargada.
+[ ] Revisar que se vean las fotos de la galería y que se amplíen al tocarlas.
+[ ] Revisar textos y fotos.
+
+CAMBIOS FUTUROS
+Editar el archivo en GitHub (lápiz) y guardar: Cloudflare republica solo.
